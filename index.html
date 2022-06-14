@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wissen İnşaat</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</head>
+
+<body>
+  <div class="menu-container">
+    <nav class="menu">
+      <ul>
+        <li><a href="#">Wissen İnşaat</a></li>
+        <li><a href="#">Ana Sayfa</a></li>
+        <li><a href="#">Hakkımızda</a>
+          <ul>
+            <li><a href="#">Tarihçemiz</a></li>
+            <li><a href="#">Misyonumuz</a></li>
+            <li><a href="#">Vizyonumuz</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Projelerimiz</a>
+          <ul>
+            <li><a href="#">Kanal Türkiye</a></li>
+            <li><a href="#">Toplu Konut Projesi</a></li>
+            <li><a href="#">Galatasaray Stadı Projesi</a></li>
+            <li><a href="#">Yeni Otoban Projesi</a></li>
+            <li><a href="#">Villa Projesi</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Çalışanlarımız</a>
+          <ul>
+            <li><a href="#">Yöneticiler</a></li>
+            <li><a href="#">Mühendisler</a></li>
+            <li><a href="#">Mimarlar</a></li>
+          </ul>
+        </li>
+        <li><a href="#">İletişim</a></li>
+        <div class="ara">
+          <input type="text" name="" id="" placeholder="Arama">
+          <button>Ara</button>
+        </div>
+      </ul>
+    </nav>
+  </div>
+
+  <br><br>
+
+  <div id="slider-container">
+    <div id="slider">
+      <div class="slide"><img class="imgSlide"
+          src="https://img.piri.net/resim/imagecrop/2021/03/15/02/04/resized_6e03d-6faa2a03ysajans1920.jpg" alt="">
+      </div>
+      <div class="slide"><img class="imgSlide"
+          src="https://www.bestbinayonetim.com/templates/yootheme/cache/site-yonetimi-slideshow-01831712.jpeg" alt="">
+      </div>
+      <div class="slide"><img class="imgSlide" src="https://www.timeturk.com/resim/detay/170/1704414.jpg" alt=""></div>
+      <div class="slide"><img class="imgSlide"
+          src="https://cdnuploads.aa.com.tr/uploads/Contents/2021/07/27/thumbs_b_c_4df7c539ee99c45709b58fbd076d79b8.jpg?v=123036"
+          alt=""></div>
+      <div class="slide"><img class="imgSlide"
+          src="https://www.egeyebakis.com/images/haberler/2021/01/rimay-insaat-tan-sehrin-gizli-bahcesinde-bir-villa-projesi.jpg"
+          alt=""></div>
+      <div id="control">
+        <a href="javascript:previousSlide()">Önceki</a>
+        <a href="javascript:nextSlide()">Sonraki</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="projects-container">
+    <div class="projects">
+      <div class="project">
+        <a href="#1">
+          <img class="imgProject"
+            src="https://img.piri.net/resim/imagecrop/2021/03/15/02/04/resized_6e03d-6faa2a03ysajans1920.jpg" alt="">
+          <p class="pProject"> Kanal Türkiye <br> Bu proje Kanal Türkiye Projesi</p>
+        </a>
+        <div class="main-popup">
+          <div class="popup">
+            <a href="">
+              <div class="close-popup">X</div>
+            </a>
+            <div class="content-popup">
+              <h3>Kanal Türkiye</h3>
+              <p>Türkiye'nin ilk kanal projesi</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="project"><a href="#2">
+          <img class="imgProject"
+            src="https://www.bestbinayonetim.com/templates/yootheme/cache/site-yonetimi-slideshow-01831712.jpeg" alt="">
+          <p class="pProject"> Toplu Konut Projesi <br> Bu proje Toplu Konut Projesi</p>
+        </a>
+        <div class="main-popup">
+          <div class="popup">
+            <a href="">
+              <div class="close-popup">X</div>
+            </a>
+            <div class="content-popup">
+              <h3>Toplu Konut Projesi</h3>
+              <p>Büyük Toplu Konut Projesi</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="project"><a href="#3">
+          <img class="imgProject" src="https://www.timeturk.com/resim/detay/170/1704414.jpg" alt="">
+          <p class="pProject"> Galatasaray Stat Projesi <br> Bu proje Galatasaray Stat Projesi</p>
+        </a>
+        <div class="main-popup">
+          <div class="popup">
+            <a href="">
+              <div class="close-popup">X</div>
+            </a>
+            <div class="content-popup">
+              <h3>Galatasaray Stat Projesi</h3>
+              <p>Galatasaray'ın Stat Projesi</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="project"><a href="#4">
+          <img class="imgProject"
+            src="https://cdnuploads.aa.com.tr/uploads/Contents/2021/07/27/thumbs_b_c_4df7c539ee99c45709b58fbd076d79b8.jpg?v=123036"
+            alt="">
+          <p class="pProject"> Yeni Otoyol <br> Bu proje Yeni Otoyol Projesi</p>
+        </a>
+        <div class="main-popup">
+          <div class="popup">
+            <a href="">
+              <div class="close-popup">X</div>
+            </a>
+            <div class="content-popup">
+              <h3>Yeni Otoyol Projesi</h3>
+              <p>Türkiye'nin En Büyük Projesi</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="project"><a href="#5">
+          <img class="imgProject"
+            src="https://www.egeyebakis.com/images/haberler/2021/01/rimay-insaat-tan-sehrin-gizli-bahcesinde-bir-villa-projesi.jpg"
+            alt="">
+          <p class="pProject"> Villa Projesi <br> Bu proje Villa Projesi</p>
+        </a>
+        <div class="main-popup">
+          <div class="popup">
+            <a href="">
+              <div class="close-popup">X</div>
+            </a>
+            <div class="content-popup">
+              <h3>Villa Projesi</h3>
+              <p>Türkiye'nin En Villa Projesi</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <br><br>
+  <br><br>
+  <br><br>
+
+  <footer class="footer">
+    <div>
+      <span>All Rights Reserved. @2022</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
